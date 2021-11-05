@@ -1,0 +1,15 @@
+{
+  "manifest_version": 2,
+
+  "name": "Malware Identifier Tool",
+  "description": "This extension will analyze a file to determine if it is malware and provide recommendations.",
+  "version": "1.0",
+
+  "browser_action": {
+   "default_icon": "images/icon.png",
+   "default_popup": "popup.html"
+  },
+  "permissions": [
+   "activeTab"
+   ]
+}
